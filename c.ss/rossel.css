@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-column {
+    flex: 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.right-column {
+    flex: 1;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.profile-picture {
+    align-self: first baseline;
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+.description {
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.description p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+.description .highlight {
+    color: red;
+    text-decoration: underline;
+}
+
+h2 {
+    color: #e74c3c;
+    font-size: 18px;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+h3 {
+    color: #555;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section.curriculum h2 {
+    text-align: center;
+
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
+}
+
+.section.contact h2, .section.skills h2, .section.languages h2 {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px;
+    margin: 0 -20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.section.contact ul, .section.skills ul, .section.languages ul {
+    list-style: none;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.section.contact ul li, .section.skills ul li, .section.languages ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.section.contact ul li:last-child, .section.skills ul li:last-child, .section.languages ul li:last-child {
+    border-bottom: none;
+}
+
+.bar {
+    height: 5px;
+    background-color: #e74c3c;
+    margin: 10px 0;
+}
